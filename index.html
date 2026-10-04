@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="quiz-container" id="quizBox">
+            <!---Header details------->
+            <header>
+                <h1>Tech Quiz platform</h1>
+                <p>Basic  of Web Development|Task 1</p>
+                <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </header>
+            <!--main Dynamic Area-->
+            <div class="quiz-body">
+                <div id="questionNumber" class="question-number">Question 1 of 3</div>
+                <div id="questionText" class="question-text">Loading question content...</div>
+                
+                <!--Button Container for  Choices-->
+                <div id="optionContainer" class="option-grid"></div>
+            </div>
+            <!--APP Footer showing validation details-->
+            <footer class="quiz-footer">
+                <span>Submitted by: <strong></strong></span>
+            </footer>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
